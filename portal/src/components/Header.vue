@@ -6,7 +6,7 @@
         <v-img
           v-bind:src="require('@/assets/polban.png')"
           max-height="80"
-          max-width="70"
+          max-width="50"
         ></v-img>
         
       </v-toolbar-side-icon>
