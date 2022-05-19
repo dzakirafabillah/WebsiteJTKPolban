@@ -4,14 +4,14 @@
       <v-footer
         dark
         padless
+        absolute
         app
         bottom
-        absolute
-        fixed
       >
         <v-card
           flat
           tile
+          width="100%"
           class="white--text"
           color="#19396C"
         >
@@ -45,7 +45,6 @@
                 </v-row>
               </v-col>
             </v-row>
-            Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula laci\
           </v-card-text>
     
           <v-divider></v-divider>

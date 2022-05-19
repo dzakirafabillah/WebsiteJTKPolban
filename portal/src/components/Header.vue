@@ -16,7 +16,8 @@
           <v-menu offset-y>
             <template v-slot:activator="{ on, attrs }">
               <v-btn
-              plain
+                text
+                color="#19396C"
                 v-bind="attrs"
                 v-on="on"
                 height="100"
@@ -27,13 +28,25 @@
         </v-app>
         
         <v-col></v-col>
-        <v-btn plain>BERITA</v-btn>
+        <v-btn
+          text
+          color="#19396C"
+          >BERITA</v-btn>
         <v-col></v-col>
-        <v-btn plain>GALERI</v-btn>
+        <v-btn 
+          text
+          color="#19396C"
+          >GALERI</v-btn>
         <v-col></v-col>
-        <v-btn plain>PENERIMAAN</v-btn>
+        <v-btn 
+          text
+          color="#19396C"
+          >PENERIMAAN</v-btn>
         <v-col></v-col>
-        <v-btn plain>MAHASISWA</v-btn>
+        <v-btn 
+          text
+          color="#19396C"
+          >MAHASISWA</v-btn>
         
       </v-toolbar-items>
       <v-col></v-col>
@@ -41,6 +54,7 @@
       <v-text-field
         class="rounded-0 mt-4"
         solo
+        dark
         placeholder="Cari..."
         append-icon="mdi-magnify"
         background-color="#19396C"
