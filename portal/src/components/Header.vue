@@ -1,0 +1,113 @@
+<template>
+  <v-toolbar dense height="100">
+    <v-col></v-col>
+    <v-toolbar-side-icon>
+      <v-img
+        v-bind:src="require('@/assets/polban.png')"
+        max-height="80"
+        max-width="70"
+      ></v-img>
+      
+    </v-toolbar-side-icon>
+    <v-toolbar-items>  
+    <v-col></v-col>
+      <v-app>
+        <v-menu offset-y>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn
+            plain
+              v-bind="attrs"
+              v-on="on"
+              height="100"
+            >TENTANG</v-btn>
+          </template>
+          <v-treeview :items="items"></v-treeview>
+        </v-menu>
+      </v-app>
+      
+      <v-col></v-col>
+      <v-btn plain>BERITA</v-btn>
+      <v-col></v-col>
+      <v-btn plain>GALERI</v-btn>
+      <v-col></v-col>
+      <v-btn plain>PENERIMAAN</v-btn>
+      <v-col></v-col>
+      <v-btn plain>MAHASISWA</v-btn>
+      
+    </v-toolbar-items>
+    <v-col></v-col>
+    <v-col></v-col>
+    <v-text-field
+      class="rounded-0"
+      solo
+      placeholder="Cari..."
+      append-icon="mdi-magnify"
+      background-color="#19396C"
+      color="white"
+    ></v-text-field>
+    
+    <v-col></v-col>
+  </v-toolbar>
+</template>
+
+<script>
+export default {
+  name: 'Header',
+
+  data: () => ({
+    items: [
+      {
+        id: 1, 
+        name: 'Profil',
+        children: [
+          {
+            id: 101,
+            name: 'Jurusan Teknik Komputer dan Informatika',
+          },
+          {
+            id: 102,
+            name: 'Program Studi',
+            children: [
+              {
+                id: 1021,
+                name: 'D3 Teknik Informatika'
+              },
+              {
+                id: 1022,
+                name:'D4 Teknik Informatika'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: 2,
+        name: 'Kurikulum'
+      },
+      {
+        id: 3,
+        name: 'Sarana Prasarana'
+      },
+      {
+        id: 4,
+        name: 'Pengajuan Kerja Sama'
+      },
+      {
+        id: 5,
+        name: 'Tracer Study'
+      }
+    ]
+
+  }),
+};
+</script>
+
+<style>
+  ::placeholder {
+    color: white!important;
+  }
+
+  v-toolbar {
+    border-bottom: 8px solid red;
+  }
+</style>
