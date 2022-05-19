@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "partnership_infos",
+  "info": {
+    "name": "PartnershipInfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

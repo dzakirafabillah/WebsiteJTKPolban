@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/profil-d-3",
+      "handler": "profil-d3.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/profil-d-3",
+      "handler": "profil-d3.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/profil-d-3",
+      "handler": "profil-d3.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

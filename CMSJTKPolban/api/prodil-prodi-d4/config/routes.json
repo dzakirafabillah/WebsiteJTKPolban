@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/prodil-prodi-d-4",
+      "handler": "prodil-prodi-d4.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/prodil-prodi-d-4",
+      "handler": "prodil-prodi-d4.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/prodil-prodi-d-4",
+      "handler": "prodil-prodi-d4.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

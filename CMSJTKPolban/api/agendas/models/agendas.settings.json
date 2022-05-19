@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendas",
+  "info": {
+    "name": "Agendas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Location": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}

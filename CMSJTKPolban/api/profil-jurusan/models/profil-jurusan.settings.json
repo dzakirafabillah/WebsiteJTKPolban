@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "profil_jurusans",
+  "info": {
+    "name": "ProfilJurusan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Jurusan": {
+      "type": "string",
+      "required": true
+    },
+    "DeskirpsiJurusan": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/profil-jurusan",
+      "handler": "profil-jurusan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/profil-jurusan",
+      "handler": "profil-jurusan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/profil-jurusan",
+      "handler": "profil-jurusan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

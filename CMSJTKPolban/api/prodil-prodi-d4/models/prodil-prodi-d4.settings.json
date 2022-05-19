@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "prodil_prodi_d4s",
+  "info": {
+    "name": "ProdilProdiD4",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NamaProdi": {
+      "type": "string",
+      "required": true
+    },
+    "Deskripsi": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

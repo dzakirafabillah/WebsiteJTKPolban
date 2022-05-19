@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galleries",
+  "info": {
+    "name": "Gallery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "albums": {
+      "via": "gallery",
+      "collection": "album"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

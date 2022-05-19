@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracer_studies",
+  "info": {
+    "name": "Tracer Study"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Year": {
+      "type": "string",
+      "required": true,
+      "maxLength": 4,
+      "minLength": 4
+    },
+    "File": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

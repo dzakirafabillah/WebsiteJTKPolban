@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lecturers",
+  "info": {
+    "name": "Lecturers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "NIP": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Functional": {
+      "type": "string"
+    },
+    "Degree": {
+      "type": "enumeration",
+      "enum": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    "EmploymentBond": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}

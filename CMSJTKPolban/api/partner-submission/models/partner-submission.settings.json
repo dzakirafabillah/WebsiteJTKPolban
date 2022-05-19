@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partner_submissions",
+  "info": {
+    "name": "PartnerSubmission"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PartnerName": {
+      "type": "string"
+    },
+    "PIC_Name": {
+      "type": "string"
+    },
+    "PIC_PhoneNumber": {
+      "type": "string"
+    },
+    "PIC_Email": {
+      "type": "email"
+    },
+    "ScopeofCoorperation": {
+      "type": "richtext"
+    },
+    "Plan": {
+      "type": "richtext"
+    },
+    "FileSubmission": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
