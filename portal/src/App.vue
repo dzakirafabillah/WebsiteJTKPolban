@@ -5,8 +5,11 @@
       <Banner></Banner>
     </v-row>
     <v-row>
-      <Berita></Berita>
-      <Agenda></Agenda>
+      <v-col class="ma-0 pa-0" cols="9"><Berita></Berita></v-col>
+      <v-col class="ma-0 pa-0"><Agenda></Agenda></v-col>
+    </v-row>
+    <v-row>
+      <Card></Card>
     </v-row>
     <Footer></Footer>
   </div>
@@ -17,6 +20,7 @@ import Header from './components/Header.vue'
 import Banner from './components/Banner.vue'
 import Berita from './components/beranda/BeritaPanel.vue'
 import Agenda from './components/beranda/AgendaPanel.vue'
+import Card from './components/beranda/testAgenda.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -26,6 +30,7 @@ export default {
     Banner,
     Berita,
     Agenda,
+    Card,
     Footer
   }
 }

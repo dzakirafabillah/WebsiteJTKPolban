@@ -3,7 +3,7 @@
     <v-card
       flat
       class="rounded-0"
-      max-width="210"
+      max-width="180"
     >
       <v-img
         height="120"
