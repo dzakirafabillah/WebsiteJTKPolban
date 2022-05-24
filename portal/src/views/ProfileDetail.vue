@@ -4,6 +4,7 @@
     <v-row>
       <Banner></Banner>
     </v-row>
+    <AboutPanel></AboutPanel>  
     <Footer></Footer>
   </div>
 </template>
@@ -11,6 +12,7 @@
 <script>
 import Header from '../components/Header.vue'
 import Banner from '../components/Banner.vue'
+import AboutPanel from '../components/profile/AboutPanel.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
@@ -18,7 +20,8 @@ export default {
   components: {
     Header,
     Banner,
-    Footer
+    Footer,
+    AboutPanel
   }
 }
 </script>
