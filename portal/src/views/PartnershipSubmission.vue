@@ -1,6 +1,10 @@
 <template>
   <div id="agenda">
     <Header></Header>
+    <h3>FORMULIR PENGAJUAN KERJASAMA</h3>
+    <div class="partnership-submission">
+
+    </div>
     <Footer></Footer>
   </div>
 </template>
@@ -22,5 +26,10 @@ export default {
 * {
   margin: 0;
   padding: 0;
+}
+
+h3{
+    text-align: center;
+    margin-top: 2%;
 }
 </style>

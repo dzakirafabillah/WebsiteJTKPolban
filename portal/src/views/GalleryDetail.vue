@@ -1,6 +1,7 @@
 <template>
   <div id="agenda">
     <Header></Header>
+    <h3>{{gallery_name}}</h3>
     <Footer></Footer>
   </div>
 </template>
@@ -14,7 +15,11 @@ export default {
   components: {
     Header,
     Footer
-  }
+  },
+
+  data: () => ({
+    gallery_name : "ACARA JTK",
+  }),
 }
 </script>
 
@@ -22,5 +27,10 @@ export default {
 * {
   margin: 0;
   padding: 0;
+}
+
+h3{
+    margin-left: 4%;
+    margin-top: 2%;
 }
 </style>

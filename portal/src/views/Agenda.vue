@@ -1,6 +1,7 @@
 <template>
   <div id="agenda">
     <Header></Header>
+    <h3>AGENDA</h3>
     <Footer></Footer>
   </div>
 </template>
@@ -22,5 +23,10 @@ export default {
 * {
   margin: 0;
   padding: 0;
+}
+
+h3{
+    margin-left: 4%;
+    margin-top: 2%;
 }
 </style>
