@@ -174,3 +174,22 @@ export default {
 }
 </script>
 
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.partnership-submission{
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+</style>
