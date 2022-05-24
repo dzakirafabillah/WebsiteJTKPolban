@@ -1,7 +1,8 @@
 <template>
   <div id="agenda">
     <Header></Header>
-    <h3>{{gallery_name}}</h3>
+    <h1>{{gallery_name}}</h1>
+    <Carousel></Carousel>
     <Footer></Footer>
   </div>
 </template>
@@ -9,12 +10,14 @@
 <script>
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
+import Carousel from '../components/album/Carousel.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Footer
+    Footer,
+    Carousel,
   },
 
   data: () => ({
@@ -29,7 +32,7 @@ export default {
   padding: 0;
 }
 
-h3{
+h1{
     margin-left: 4%;
     margin-top: 2%;
 }
