@@ -1,0 +1,36 @@
+<template>
+  <div id="agenda">
+    <Header></Header>
+    <h3>{{gallery_name}}</h3>
+    <Footer></Footer>
+  </div>
+</template>
+
+<script>
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Footer
+  },
+
+  data: () => ({
+    gallery_name : "ACARA JTK",
+  }),
+}
+</script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+</style>
