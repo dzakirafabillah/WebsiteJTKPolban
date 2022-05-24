@@ -12,7 +12,7 @@
 <script>
 import Header from '../components/Header.vue'
 import Banner from '../components/Banner.vue'
-import AboutPanel from '../components/profile/AboutPanel.vue'
+import AboutPanel from '../components/about/AboutPanel.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
