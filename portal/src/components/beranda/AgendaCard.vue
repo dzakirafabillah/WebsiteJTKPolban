@@ -20,7 +20,7 @@
       <v-col>
         <v-card flat>
           <p class="my-0"><strong>PPKK Polban</strong></p>
-          <p><v-icon color="red">mdi-map-marker</v-icon>Gedung Pendopo Polban</p>
+          <p><v-icon id="map-marker">mdi-map-marker</v-icon>Gedung Pendopo Polban</p>
         </v-card>
       </v-col>
         
@@ -31,5 +31,9 @@
 <style>
 #date-agenda{
   color:"#319396C"!important;
+}
+
+#map-marker{
+  color: red;
 }
 </style>
